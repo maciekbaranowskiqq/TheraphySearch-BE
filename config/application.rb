@@ -11,10 +11,5 @@ module Myapp
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 5.1
 
-    config.session_store :cookie_store
-    config.middleware.use ActionDispatch::Cookies
-    config.middleware.use ActionDispatch::Session::CookieStore, config.session_options
-    config.middleware.use Rack::MethodOverride
-    
   end
 end
