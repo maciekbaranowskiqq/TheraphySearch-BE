@@ -7,6 +7,6 @@
 
 5.times do
   Counsellor.create({
-    name: Faker::Name.name
+    name: Faker::Book.title
     })
 end
