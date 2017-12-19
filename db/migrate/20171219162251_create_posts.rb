@@ -5,7 +5,7 @@ class CreatePosts < ActiveRecord::Migration[5.1]
       t.string :image
       t.string :owner_picture
       t.string :owner_name
-      t.int :count_likes
+      t.integer :count_likes
 
       t.timestamps
     end

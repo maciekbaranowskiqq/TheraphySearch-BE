@@ -5,11 +5,11 @@ one:
   image: MyString
   owner_picture: MyString
   owner_name: MyString
-  count_likes: 
+  count_likes: 1
 
 two:
   content: MyString
   image: MyString
   owner_picture: MyString
   owner_name: MyString
-  count_likes: 
+  count_likes: 1
