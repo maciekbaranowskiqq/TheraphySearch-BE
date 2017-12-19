@@ -14,13 +14,14 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
+gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
 
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
-  gem 'faker'
+  # gem 'faker'
 end
 
 group :development do
@@ -30,7 +31,7 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
-  gem 'faker'
+  # gem 'faker'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
