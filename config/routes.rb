@@ -5,6 +5,7 @@ Rails.application.routes.draw do
       resources :articles
       resources :questions
       resources :counsellors
+      resources :posts
     end
   end
 end
