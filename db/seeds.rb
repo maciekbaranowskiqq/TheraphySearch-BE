@@ -19,33 +19,33 @@ end
     })
 end
 
-3.times do
-  Counsellor.create({
-    name: Faker::Name.title,
-    profile_picture: "https://images.unsplash.com/photo-1478480154178-88540b2be3b0?dpr=1&auto=format&fit=crop&w=376&h=213&q=60&cs=tinysrgb&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D",
-    city: Faker::Address.city,
-    address: Faker::Address.street_name,
-    latitude: Faker::Address.latitude,
-    latitude: Faker::Address.longitude,
-    paradigm: "psychodynamic",
-    specialization: "long term, based on relationships",
-    cost: "100"
-    })
-end
-
-3.times do
-  Counsellor.create({
-    name: Faker::Name.title,
-    profile_picture: "https://images.unsplash.com/photo-1478480154178-88540b2be3b0?dpr=1&auto=format&fit=crop&w=376&h=213&q=60&cs=tinysrgb&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D",
-    city: Faker::Address.city,
-    address: Faker::Address.street_name,
-    latitude: Faker::Address.latitude,
-    latitude: Faker::Address.longitude,
-    paradigm: "psychologist",
-    specialization: "consulations, tests, diagnosis",
-    cost: "20"
-    })
-end
+# 3.times do
+#   Counsellor.create({
+#     name: Faker::Name.title,
+#     profile_picture: "https://images.unsplash.com/photo-1478480154178-88540b2be3b0?dpr=1&auto=format&fit=crop&w=376&h=213&q=60&cs=tinysrgb&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D",
+#     city: Faker::Address.city,
+#     address: Faker::Address.street_name,
+#     latitude: Faker::Address.latitude,
+#     latitude: Faker::Address.longitude,
+#     paradigm: "psychodynamic",
+#     specialization: "long term, based on relationships",
+#     cost: "100"
+#     })
+# end
+#
+# 3.times do
+#   Counsellor.create({
+#     name: Faker::Name.title,
+#     profile_picture: "https://images.unsplash.com/photo-1478480154178-88540b2be3b0?dpr=1&auto=format&fit=crop&w=376&h=213&q=60&cs=tinysrgb&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D",
+#     city: Faker::Address.city,
+#     address: Faker::Address.street_name,
+#     latitude: Faker::Address.latitude,
+#     latitude: Faker::Address.longitude,
+#     paradigm: "psychologist",
+#     specialization: "consulations, tests, diagnosis",
+#     cost: "20"
+#     })
+# end
 
 5.times do
   Post.create({
