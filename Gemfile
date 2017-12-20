@@ -15,6 +15,9 @@ gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
+gem 'bcrypt', '~> 3.1.7'
+gem 'jwt'
+gem 'simple_command'
 
 
 group :development, :test do
