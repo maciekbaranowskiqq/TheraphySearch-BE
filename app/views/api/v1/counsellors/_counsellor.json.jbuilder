@@ -1,0 +1,10 @@
+json.id counsellor.id
+json.name counsellor.name
+json.profile_picture counsellor.profile_picture
+json.city counsellor.city
+json.address counsellor.address
+json.latitude counsellor.latitude
+json.longitude counsellor.longitude
+json.paradigm counsellor.paradigm
+json.specialization counsellor.specialization
+json.cost counsellor.cost
